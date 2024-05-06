@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            /*
+            Medidas Absolutas
+            cm - centimetro
+            mm - miminetro
+            in - polegada
+            px - pixel
+            pt - ponto
+            pc - paica
+
+            Medidas Relativas
+            em - tamanho atual da fonte
+            ex - altura x
+            rem - 
+            vw - 
+            vh - 
+            % - 
+            */
+            font-size: 1em;
+            font-weight: normal; 
+            /*lighter, normal, bold, bolder*/
+            font-style: italic;
+            text-decoration: underline;
+        }
+        h1 {/* Naõ irá pegar pois o outro codigo esta acima*/
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bolder;
+            font-style: italic;
+            /*shorthand como fazer os 3 em 1 só
+            na sequência 1-font-style 2-font-weight 3-font-size 4-font-family 
+            */
+            font: italic bolder 2em 'Arial, Helvetica, sans-serif';
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, commodi asperiores ipsam quisquam odit porro impedit nostrum facilis animi praesentium, vero dolor aliquam. Accusantium hic minus, dicta natus quis eaque. Lorem ipsum dolor sit amet consectetur, adipisicing elit. At dolore rerum aliquam ducimus odit distinctio, totam quo maxime laborum non dolorem dicta earum aliquid eos placeat ab numquam corporis alias?</p>
+
+    <h2>Subtítulo do Exercicio</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum excepturi quas, deserunt illo at, mollitia ut eligendi voluptate aliquid libero distinctio! Quas ex quaerat mollitia illum perspiciatis, deserunt dolores voluptatem.</p>
+    
+</body>
+</html>

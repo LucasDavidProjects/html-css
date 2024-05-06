@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo videos hospedados localmente</h1>
+    <p>Este video esta hospedado no meu proprio servidor
+        <br>
+        Dessa forma pode custar mais caro para seu cliente consumindo sua banda 
+    </p>
+
+    <video src="midia/meu video.mp4" width="500" controls></video>
+    <p>Outra forma de codigo para funcionar em varios tipos de navergador</p>
+    <br>
+    <video width="500" poster="imagem/Theater Youtube Video Intro.png" controls>
+
+        <source src="midia/meu video 1.mp4" type="video/mp4">
+        <source src="midia/meu video.ogv" type="video/ogg">
+        <source src="midia/meu video.webm" type="video/webm">
+   </video>
+   <p>Caso nenhum funcione mostará</p>
+   <p>Seu navergador não tem compatibilidade com reprodução de videos</p>
+
+   <h1>Inserindo videos do YouTube</h1>
+
+   <iframe width="500" height="315" src="https://www.youtube.com/embed/LW0bhKitRBk?si=jRx__8GkphHch1Hw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+</html>
